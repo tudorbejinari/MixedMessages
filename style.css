@@ -1,0 +1,31 @@
+body {
+  background-image: url("images/backgroundImage.jpg");
+}
+.navbar {
+  padding: 30px;
+}
+
+.card-body,
+.card {
+  margin-left: 300px;
+  margin-top: 40px;
+  width: 700px;
+  padding: 15px;
+}
+
+card-body button {
+  display: block;
+}
+
+hr {
+  width: 300px;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+#exampleModal {
+  padding-top: 250px;
+  padding-right: 210px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Play Game</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <form class="container-fluid justify-content-start">
+      <a href="index.html" class="btn btn-dark btn-lg">Funny Jokes&#128514;</a>
+    </form>
+  </nav>
+  <div class="card-body">
+    <h1 class="card-title">Select Category</h1>
+    <hr />
+    <button type="button" id="funnyJokes" class="btn btn-danger btn-lg" data-bs-toggle="modal"
+      data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+      Funny Jokes
+    </button>
+    <button type="button" id="dadJokes" class="btn btn-danger btn-lg" data-bs-toggle="modal"
+      data-bs-target="#exampleModal" data-bs-whatever="@fat">
+      Dad Jokes
+    </button>
+    <button type="button" id="holidaysJokes" class="btn btn-danger btn-lg" data-bs-toggle="modal"
+      data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">
+      Holidays Jokes
+    </button>
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">
+            Joke to be displayed here
+          </h2>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="javascript.js"></script>
+</body>
+
+</html>
