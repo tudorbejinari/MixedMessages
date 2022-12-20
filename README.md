@@ -1,5 +1,5 @@
 # Mixed Messages Project
-## Funny Jokes :joy:  []() - These funny jokes will make your family and friends laugh :joy:.
+:joy:  [Funny Jokes](https://tudorbejinari.github.io/MixedMessages) - These funny jokes will make your family and friends laugh :joy:.
 
 ### Tools Used: 
 
